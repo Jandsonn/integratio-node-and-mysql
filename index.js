@@ -25,6 +25,7 @@ app.get('/', (req,res) =>{
 
 /*comando para isnerir os dados*/
 /*extração de dados também*/
+/* adicionando no git com chave ssh:  ssh-keygen -t rsa -C "jandsondosanjos@hotmail.com"*/
 app.post('/books/insertbook', (req,res) =>{
     const title = req.body.title
     const pageqty = req.body.pageqty
