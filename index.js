@@ -23,7 +23,7 @@ app.get('/', (req,res) =>{
     res.render('home')
 })
 
-/*comando para isnerir os dados*/
+/*comando para inserir os dados*/
 /*extração de dados também*/
 /* adicionando no git com chave ssh:  ssh-keygen -t rsa -C "jandsondosanjos@hotmail.com"*/
 app.post('/books/insertbook', (req,res) =>{
@@ -46,7 +46,7 @@ app.listen(3001);
 const conn = mysql.createConnection({
     host: 'localhost',
     user:'root',
-    password:'jandefake3',
+    password:'..',
     database:'nodemysql2', 
 })
 
